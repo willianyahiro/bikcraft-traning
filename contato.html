@@ -7,33 +7,36 @@
         <link rel="stylesheet" href="./style.css">
     </head>
     <body>
-        <form>
-            <!-- Primenira Caixa -->
-            <div class="primary-box">
-                <div>
-                    <label>Nome</label>
-                    <input type="text" placeholder="Seu Nome" />
+        <section>
+            <div class="address-box"></div>
+            <form>
+                <!-- Primenira Caixa -->
+                <div class="primary-box">
+                    <div>
+                        <label>Nome</label>
+                        <input type="text" placeholder="Seu Nome" />
+                    </div>
+                    <div>
+                        <label>Telefone</label>
+                        <input type="tel" placeholder="(XX) XXXXX-XXXX" />
+                    </div>
                 </div>
-                <div>
-                    <label>Telefone</label>
-                    <input type="tel" placeholder="(XX) XXXXX-XXXX" />
+    
+                <!-- Segunda Caixa -->
+                <div class="secondary-box"> 
+                    <label>email</label>
+                    <input type="email" placeholder="Contato@email.com" />
                 </div>
-            </div>
-
-            <!-- Segunda Caixa -->
-            <div>
-                <label>email</label>
-                <input type="email" placeholder="Contato@email.com" />
-            </div>
-
-            <!-- Terceira Caixa -->
-            <div>
-                <label>mensagem</label>
-                <textarea placeholder="O Que você precisa"></textarea>
-            </div>
-
-            <!-- Botão -->
-            <button>enviar mensagem</button>
-        </form>
+    
+                <!-- Terceira Caixa -->
+                <div class="third-box">
+                    <label>Mensagem</label>
+                    <textarea placeholder="O que você precisa"></textarea>
+                </div>
+    
+                <!-- Botão -->
+                <button>Enviar mensagem</button>
+            </form>
+        </section>
     </body>
 </html>
